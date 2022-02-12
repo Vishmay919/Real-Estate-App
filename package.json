@@ -10,7 +10,16 @@
   "dependencies": {
     "next": "12.0.10",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/style": "^0.8.0",
+    "axios": "^0.25.0",
+    "framer-motion": "^6.2.6",
+    "millify": "^4.0.0",
+    "nprogress": "^0.2.0",
+    "react-horizontal-scrolling-menu": "^2.7.0",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "eslint": "8.9.0",

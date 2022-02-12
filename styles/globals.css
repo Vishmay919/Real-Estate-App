@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.rounded-top{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.phone{
+  display: none;
+}
+
+
+
+@media all and (max-width: 830px){
+  .phone{
+    display: block;
+  }
+  .no-phone{
+    display: none;
+  }
+  
+}
