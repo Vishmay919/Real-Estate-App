@@ -18,7 +18,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
           AED {price}{rentFrequency? `/${rentFrequency}`: "/-"}
         </Text>
         <Spacer />
-        <Box border='1px' borderColor='gray.300' p='8px' px='6' rounded='full'>
+        <Box border='1px' borderColor='gray.300' mx="5" px='6' rounded='full'>
          By : {agency.name}
         </Box>
       </Flex>
