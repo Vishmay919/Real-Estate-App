@@ -19,7 +19,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
         </Text>
         <Spacer />
         <Box border='1px' borderColor='gray.300' mx="5" px='6' rounded='full'>
-         By : {agency.name}
+         By : {agency.name.substring(0,7)}...
         </Box>
       </Flex>
       <Flex fontWeight='semibold' alignItems='center' px='1' justifyContent='space-between' w='250px' color='blue.400'>
